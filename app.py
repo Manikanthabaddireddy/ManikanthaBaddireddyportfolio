@@ -41,9 +41,9 @@ st.subheader("Experience & Qulifications")
 st.write(''' 
 - ✔️ 1+ Years expereince making quality data from raw data.
 - ✔️ Maintained Data integrity while Data ingestion and transformation layers.
-- ✔️ Strong hands on experience and knowledge in Python and SQL
-- ✔️ Good understanding of Data modelling and Dimensional Modelling
-- ✔️ Excellent team-player and displaying strong sense of initiative on tasks
+- ✔️ Strong hands on experience and knowledge in Python and SQL.
+- ✔️ Good understanding of Data modeling and Dimensional Modeling.
+- ✔️ Excellent team-player and displaying strong sense of initiative on tasks.
 
 
 ''')
@@ -69,7 +69,7 @@ st.write("🚧", "**Data Engineer @ Achyutas Soft **")
 st.write("10/2022 - Present")
 st.write(
     """
-- ► Designed pipelines for data ingestion from on-premise to azure data lake,
+- ► Designed pipelines for data ingestion from on-premise to azure data lake.
 - ► Used databricks for creating notebooks for data quality and data integrity.
 - ► Team member responsible for archiving raw data.
 - ► Resposable for ingesting data from azure data lake to snowflake by creating integrations,stages,pipes.
