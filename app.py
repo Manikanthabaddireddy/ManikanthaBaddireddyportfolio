@@ -12,13 +12,14 @@ cur_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 resume_file = cur_dir /  "Manikantha_AzureDataEnginner .pdf"
 css_file=cur_dir/ "styles" / "main.css"
 # Read the PDF file
+st.set_page_config(page_title=PAGE_TITLE,page_icon=PAGE_ICON)
 with open(resume_file, "rb") as pdf_file:
     pdf = pdf_file.read()
 with open(css_file) as f:
     st.markdown("<style>{}</style>".format(f.read()),unsafe_allow_html=True)
 
 # write code heree
-st.set_page_config(page_title=PAGE_TITLE,page_icon=PAGE_ICON)
+
 img=Image.open("Mani.png")
 H,I=st.columns([2,1])
 with H:
