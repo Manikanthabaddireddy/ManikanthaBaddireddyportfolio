@@ -53,12 +53,12 @@ st.write('\n')
 st.subheader("Hard Skills")
 st.write(
     """
-- 👩‍💻 Languages: Python(pandas,python-mysql-connector,streamlit), SQL
-- 📊 Data Visulization: PowerBi basics.
-- 📚 Modeling: Data Modeling, Dimensional Modeling.
-- 🗄️ Databases: MS SQL SERVER, CASSANDRA, MySQL.
-- ⚙️ Tools: ❄️Snowflake,Spark,DataBricks.
-- 🌨️ Cloud Providers: Azure,AWS.
+👩‍💻 Languages: Python(pandas,python-mysql-connector,streamlit), SQL
+📊 Data Visulization: PowerBi basics.
+📚 Modeling: Data Modeling, Dimensional Modeling.
+🗄️ Databases: MS SQL SERVER, CASSANDRA, MySQL.
+⚙️ Tools: ❄️Snowflake,Spark,DataBricks.
+🌨️ Cloud Providers: Azure,AWS.
 """
 )
 # --- WORK HISTORY ---
