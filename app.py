@@ -14,9 +14,6 @@ resume_file = cur_dir /  "Manikantha_AzureDataEnginner .pdf"
 with open(resume_file, "rb") as pdf_file:
     pdf = pdf_file.read()
 
-
-
-
 # write code heree
 st.set_page_config(page_title=PAGE_TITLE,page_icon=PAGE_ICON)
 img=Image.open("Mani.png")
