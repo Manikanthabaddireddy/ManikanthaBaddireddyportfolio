@@ -9,7 +9,7 @@ from pathlib import Path
 
 #file_path=r"C:\Users\manib\OneDrive\Desktop\ManikanthaBaddireddyportfolio\assets\Manikantha_AzureDataEnginner .pdf"
 cur_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
-resume_file = cur_dir / "assets" / "Manikantha_AzureDataEnginner .pdf"
+resume_file = cur_dir /  "Manikantha_AzureDataEnginner .pdf"
 # Read the PDF file
 with open(resume_file, "rb") as pdf_file:
     pdf = pdf_file.read()
@@ -18,7 +18,7 @@ with open(resume_file, "rb") as pdf_file:
 
 
 # write code heree
-img=Image.open("assets/Mani.png")
+img=Image.open("Mani.png")
 H,I=st.columns([2,1])
 with H:
     st.header(NAME)
