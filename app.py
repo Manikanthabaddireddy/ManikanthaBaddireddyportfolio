@@ -18,6 +18,7 @@ with open(resume_file, "rb") as pdf_file:
 
 
 # write code heree
+st.set_page_config(page_title=PAGE_TITLE,page_icon=PAGE_ICON)
 img=Image.open("Mani.png")
 H,I=st.columns([2,1])
 with H:
