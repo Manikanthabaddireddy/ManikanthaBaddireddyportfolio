@@ -18,7 +18,7 @@ with open(css_file) as f:
     st.markdown("<style>{}</style>".format(f.read()),unsafe_allow_html=True)
 
 # write code heree
-# st.set_page_config(page_title=PAGE_TITLE,page_icon=PAGE_ICON)
+st.set_page_config(page_title=PAGE_TITLE,page_icon=PAGE_ICON)
 img=Image.open("Mani.png")
 H,I=st.columns([2,1])
 with H:
