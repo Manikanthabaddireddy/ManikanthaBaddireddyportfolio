@@ -31,7 +31,7 @@ with H:
     )
     st.write("📫",EMAIL)
 with I:
-    st.image(img,width=50)
+    st.image(img,width=250)
 
 
 # social media links
