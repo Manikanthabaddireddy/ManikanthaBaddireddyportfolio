@@ -21,18 +21,17 @@ with open(css_file) as f:
 # write code heree
 
 img=Image.open("mani.png")
-H,I=st.columns([4,1])
+I,H=st.columns([1,4])
 with H:
     st.header(NAME)
     st.write(POSITION)
     st.write(DESCRIPTION)
-
+    st.download_button(
+        label="📄 Download Resume",data=pdf,file_name=resume_file.name,mime="application/octet-stream"
+    )
+    st.write("📫",EMAIL)
 with I:
     st.image(img,width=250)
-    st.download_button(
-        label="📄 Download Resume", data=pdf, file_name=resume_file.name, mime="application/octet-stream"
-    )
-    st.write("📫", EMAIL)
 
 
 # social media links
