@@ -26,12 +26,13 @@ with H:
     st.header(NAME)
     st.write(POSITION)
     st.write(DESCRIPTION)
-    st.download_button(
-        label="📄 Download Resume",data=pdf,file_name=resume_file.name,mime="application/octet-stream"
-    )
-    st.write("📫",EMAIL)
+
 with I:
     st.image(img,width=250)
+    st.download_button(
+        label="📄 Download Resume", data=pdf, file_name=resume_file.name, mime="application/octet-stream"
+    )
+    st.write("📫", EMAIL)
 
 
 # social media links
