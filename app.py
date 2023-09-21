@@ -21,7 +21,7 @@ with open(css_file) as f:
 # write code heree
 
 img=Image.open("mani.png")
-H,I=st.columns([2,1])
+H,I=st.columns([3,1])
 with H:
     st.header(NAME)
     st.write(POSITION)
