@@ -20,7 +20,7 @@ with open(css_file) as f:
 
 # write code heree
 
-img=Image.open("Mani.jpg")
+img=Image.open("Mani.jfif")
 H,I=st.columns([2,1])
 with H:
     st.header(NAME)
