@@ -89,6 +89,6 @@ st.write(
     """
 - ► Used bs4 and request modules to scrap the data for quotes, it includes attributes like quote,author,bio of author and date of birth and location 
 - ► By using this data I have created a guessing game , i will display the quote and player need to tell the author name given four chances and also given hints
-- ► hope.
+- ► git hub link (Python)
 """
 )
