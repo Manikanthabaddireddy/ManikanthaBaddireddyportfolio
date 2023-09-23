@@ -93,4 +93,4 @@ st.write(
 """
 
 )
-st.write(f"git hub link", {Python})
+st.write(f"git hub link ({Python})")
