@@ -79,4 +79,16 @@ st.write(
 - ► Resposable for ingesting data from azure data lake to snowflake by creating integrations,stages,pipes.
 """
 )
-
+# -- PERSONAL PROJECTS ----
+st.write("\n")
+st.subheader("PERSONAL PROJECTS")
+st.write("---")
+# --- Porject 1 for web scraping
+st.write("Web Scraping with python")
+st.write(
+    """
+- ► Used bs4 and request modules to scrap the data for quotes, it includes attributes like quote,author,bio of author and date of birth and location 
+- ► By using this data I have created a guessing game , i will display the quote and player need to tell the author name given four chances and also given hints
+- ► hope.
+"""
+)
