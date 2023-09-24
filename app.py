@@ -20,7 +20,7 @@ with open(css_file) as f:
 
 # write code heree
 
-img=Image.open("mani.png")
+img=Image.open("dp_mani.png")
 I,H=st.columns(2,gap="small")
 with H:
     st.header(NAME)
