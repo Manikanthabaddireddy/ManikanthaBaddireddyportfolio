@@ -96,7 +96,7 @@ st.write("<b>Technologies used</b>: Python, request,bs4",unsafe_allow_html=True)
 st.write(f"git hub link ({Python})")
 # --- project 2 for etl ---
 st.write("\n")
-st.write("End to End ETL Project")
+st.write("End to End Azure ETL Project")
 st.write("""
  - ► Ingesting pipeline for   on-premise ms sql server  data to azure data lake stage layer then to raw layer using azure data factor
  used optimization techniques.
@@ -109,3 +109,17 @@ st.write("""
 st.write("<b>Technologies used</b>: ADF, pyspark on databricks,azure data lake,snowflake,start schema,dimensional "
          "modeling", unsafe_allow_html=True)
 
+# -- project 3 s3 to snowflake ----
+st.write("\n")
+st.write("Migrating project from on-premise Mysql to snowflake")
+st.write("""
+ - ► Reading mysql data in databricks using jdbc, to s3 for staging purposes.After reading the stage data and performing 
+     type checks and validation then pushed to the snowflake
+ - ► Before that Created integrations for s3 bucket,stage, snowpipe for automating the process through SQS service
+ - ► Whenever the data written to s3 then SQS sends the alert then snowpipe runs and copy the data from s3 bucket into 
+     snowflake tables
+ - ► Created dynamic tables for snowflake tables to build dashboards
+
+""")
+st.write("<b><h3>Technologies used</h3></b>: MYSQL, pyspark on databricks,Snowflake,"
+         "stages,storage integrations,Snowpipe,Dynamic tables", unsafe_allow_html=True)
