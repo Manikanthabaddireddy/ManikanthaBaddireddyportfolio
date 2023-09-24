@@ -34,7 +34,7 @@ with I:
     st.image(img,width=250)
 
 
-# social media links
+# social media links added
 col=st.columns(len(SOCIAL_MEDIA))
 for index,(platform,link) in enumerate(SOCIAL_MEDIA.items()):
     col[index].write(f"[{platform}]({link})")
