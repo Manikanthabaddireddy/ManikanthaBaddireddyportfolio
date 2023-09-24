@@ -81,7 +81,7 @@ st.write(
 )
 # -- PERSONAL PROJECTS ----
 st.write("\n")
-st.subheader("PERSONAL PROJECTS")
+st.subheader("PERSONAL 🧍 PROJECTS")
 st.write("---")
 # --- Porject 1 for web scraping
 st.write("Web Scraping with python")
