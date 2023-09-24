@@ -121,5 +121,5 @@ st.write("""
  - ► Created dynamic tables for snowflake tables to build dashboards
 
 """)
-st.write("<b><h3>Technologies used</h3></b>: MYSQL, pyspark on databricks,Snowflake,"
+st.write("<b>Technologies used</b>: MYSQL, pyspark on databricks,Snowflake,"
          "stages,storage integrations,Snowpipe,Dynamic tables", unsafe_allow_html=True)
