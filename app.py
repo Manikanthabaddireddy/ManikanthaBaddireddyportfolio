@@ -89,19 +89,23 @@ st.write(
     """
 - ► Used bs4 and request modules to scrap the data for quotes, it includes attributes like quote,author,bio of author and date of birth and location 
 - ► By using this data I have created a guessing game , i will display the quote and player need to tell the author name given four chances and also given hints
-  Technologies use: Python, request,bs4
 """
-
 )
+st.write("<b>Technologies used</b>: Python, request,bs4",unsafe_allow_html=True)
+
 st.write(f"git hub link ({Python})")
 # --- project 2 for etl ---
 st.write("\n")
 st.write("End to End ETL Project")
 st.write("""
- - ► Created ingesting pipeline for   on-premise ms sql server  data to azure data lake using azure data factor
+ - ► Ingesting pipeline for   on-premise ms sql server  data to azure data lake stage layer then to raw layer using azure data factor
  used optimization techniques.
- - ► 
-
+ - ► Spark script for  raw data cleansing then pushed to bronze layer.
+ - ► Validations on bronze layer then pushed to silver layer.
+ - ► Derived columns and partition the data based on end user requirements then pushed to business layer.
+ - ► designed start schema for  dimensional modeling in snowflake.
+ - ► Ingesting pipeline from business layer to snowflake data warehouse.
 """)
-
+st.write("<b>Technologies used</b>: ADF, pyspark on databricks,azure data lake,snowflake,start schema,dimensional "
+         "modeling", unsafe_allow_html=True)
 
